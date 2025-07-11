@@ -1,0 +1,17 @@
+CREATE DATABASE MinhaApiDb;
+GO
+
+USE MinhaApiDb;
+GO
+
+CREATE TABLE Users (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Nome NVARCHAR(100),
+    Email NVARCHAR(100),
+	Cargo NVARCHAR(100),
+	Salario DECIMAL,
+	CPF NVARCHAR(100),
+	Situacao BIT,
+	Senha NVARCHAR(100)
+
+);
