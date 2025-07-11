@@ -2,14 +2,14 @@
 
 Uma API RESTful simples desenvolvida com **.NET 8.0**, utilizando **Dapper** para acesso a dados e **SQL Server** como banco de dados relacional.
 
-## 🛠 Tecnologias
+## Tecnologias
 
 - ASP.NET Core 8.0
 - Dapper
 - SQL Server
 - Swagger (para documentação e testes)
 
-## 🚀 Endpoints
+## Endpoints
 
 GET -> /api/user -> listar todos os usuários<br>
 GET -> /api/user/FindUser/{id} -> procurar usuário por id<br>
@@ -17,7 +17,7 @@ POST -> /api/user/CreateUser -> criar novo usuário<br>
 PUT -> /api/user/UpdateUser -> atualizar usuário existente<br>
 DELETE -> /api/user/DeleteUser/{id} -> deletar usuário existente<br>
 
-## ⚙️ Configuração
+## Configuração
 
 ### 1. Clonar o repositório
 
